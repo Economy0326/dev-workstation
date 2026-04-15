@@ -395,6 +395,7 @@ docker run -d --name dev-workstation-web -p 8080:80 dev-workstation-web:1.0
 
 컨테이너 내부 서비스는 기본적으로 외부에서 직접 접근할 수 없다.  
 호스트 포트와 연결해야 브라우저에서 `localhost:8080` 형태로 접근할 수 있다.
+lsof 명령어로 docker 포트가 어디에 사용중인지 확인할 수 있다.
 
 ### 확인한 내용
 
